@@ -9,6 +9,7 @@ import {ChartCmp} from '../../../pages/charts/components/charts';
 import {GridCmp} from '../../../pages/grid/components/grid';
 import {FormCmp} from '../../../pages/forms/components/forms';
 import {TableCmp} from '../../../pages/tables/components/tables';
+import {OrdersPage} from '../../../pages/orders/components/orders';
 import {BSCmp} from '../../../pages/bootstrap-element/components/bs_element';
 import {BlankPageCmp} from '../../../pages/blank-page/components/blank_page';
 import {ComponentCmp} from '../../../pages/component/components/component';
@@ -29,6 +30,7 @@ import {SidebarCmp} from '../../../widgets/sidebar/components/sidebar';
   { path: '/forms', component: FormCmp, as: 'Forms' },
   { path: '/bootstrap-element', component: BSCmp, as: 'BSElement' },
   { path: '/component', component: ComponentCmp, as: 'Component' },
-  { path: '/blank-page', component: BlankPageCmp, as: 'BlankPage' }
+  { path: '/blank-page', component: BlankPageCmp, as: 'BlankPage' },
+  { path: '/orders', component: OrdersPage, as: 'Orders' }
 ])
 export class DashboardCmp { }
