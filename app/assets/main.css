@@ -331,3 +331,144 @@ a:hover {
       color: rgba(255, 255, 255, 0.6) !important; }
   .login-page .form-content {
     padding: 40px 0; }
+
+/* **********************************
+*
+* Custom CSS
+*
+*/
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.clear {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+.inline-block {
+  display: inline-block; }
+
+/* Start: Classes for sizing input widths/height; */
+.one {
+  width: 8.333%;
+  min-width: 8.333%; }
+
+.two {
+  width: 16.667%;
+  min-width: 16.667%; }
+
+.three {
+  width: 25%;
+  min-width: 16.667%; }
+
+.four {
+  width: 33.333%;
+  min-width: 16.667%; }
+
+.five {
+  width: 41.667%;
+  min-width: 16.667%; }
+
+.six {
+  width: 50%;
+  min-width: 16.667%; }
+
+.seven {
+  width: 58.333%;
+  min-width: 16.667%; }
+
+.eight {
+  width: 66.667%;
+  min-width: 16.667%; }
+
+.nine {
+  width: 75%;
+  min-width: 16.667%; }
+
+.ten {
+  width: 83.333%;
+  min-width: 16.667%; }
+
+.eleven {
+  width: 91.667%;
+  min-width: 16.667%; }
+
+.twelve {
+  width: 100%;
+  min-width: 16.667%;
+  max-width: 100%; }
+
+input, select, textarea {
+  /* Start: Classes for sizing input widths/height; */ }
+  input.one, select.one, textarea.one {
+    display: inline-block;
+    width: 8.333%;
+    min-width: 8.333%; }
+  input.two, select.two, textarea.two {
+    display: inline-block;
+    width: 16.667%;
+    min-width: 16.667%; }
+  input.three, select.three, textarea.three {
+    display: inline-block;
+    width: 25%;
+    min-width: 16.667%; }
+  input.four, select.four, textarea.four {
+    display: inline-block;
+    width: 33.333%;
+    min-width: 16.667%; }
+  input.five, select.five, textarea.five {
+    display: inline-block;
+    width: 41.667%;
+    min-width: 16.667%; }
+  input.six, select.six, textarea.six {
+    display: inline-block;
+    width: 50%;
+    min-width: 16.667%; }
+  input.seven, select.seven, textarea.seven {
+    display: inline-block;
+    width: 58.333%;
+    min-width: 16.667%; }
+  input.eight, select.eight, textarea.eight {
+    display: inline-block;
+    width: 66.667%;
+    min-width: 16.667%; }
+  input.nine, select.nine, textarea.nine {
+    display: inline-block;
+    width: 75%;
+    min-width: 16.667%; }
+  input.ten, select.ten, textarea.ten {
+    display: inline-block;
+    width: 83.333%;
+    min-width: 16.667%; }
+  input.eleven, select.eleven, textarea.eleven {
+    display: inline-block;
+    width: 91.667%;
+    min-width: 16.667%; }
+  input.twelve, select.twelve, textarea.twelve {
+    display: inline-block;
+    width: 100%;
+    min-width: 16.667%;
+    max-width: 100%; }
+
+.button-row {
+  clear: both;
+  text-align: right; }
+
+/*
+*
+* // End: Custom CSS
+*
+********************************** */
